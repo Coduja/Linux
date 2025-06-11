@@ -1,3 +1,51 @@
+# Zammad Upgrade und Debian Dist-Upgrade Anleitung
+
+## 🧭 Voraussetzungen
+
+- **Aktuelles Backup** von Zammad und der Datenbank!
+- **Root- oder Sudo-Rechte**
+- Funktionierendes **PostgreSQL-Cluster** (z. B. von Version 13 auf 15)
+- Aktuelles System auf **Debian 11**
+
+---
+
+## 🔄 Zammad-Upgrade und Debian-Dist-Upgrade
+
+### Zammad-Instanz deaktivieren und einfrieren
+
+```bash
+systemctl disable zammad --now
+apt-mark hold zammad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 🧭 Voraussetzungen
 Aktuelles Backup von Zammad und der Datenbank!
 
