@@ -57,7 +57,8 @@ pg_lsclusters
 ```bash
 pg_upgradecluster 13 main /var/lib/postgresql/15/main/
 ```
-
+📌 tausche "13" mit der version die du vorher rausgefunden hast
+ 
 🧹 Alte PostgreSQL-Version entfernen
 
 ```bash
